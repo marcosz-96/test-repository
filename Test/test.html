@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tests1</title>
+        <style>
+            table{
+                width: 50%;
+                border-collapse: collapse;
+                margin: 20px auto;
+            }
+            th, td{
+                border: 2px solid black;
+                padding: 9px;
+                text-align: left;
+            }
+            th{
+                background-color: aqua;
+            }
+            .button{
+                text-align: center;
+                margin-top: 30px;
+            }
+            button{
+                padding: 15px 25px;
+                font-display: 13px;
+                cursor: pointer;
+                background-color: aquamarine;
+            }
+            caption{
+                text-align: center;
+                
+                width: 50%;
+                border-collapse: collapse;
+                margin: 20px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <caption>Mi tabla</caption>
+            </thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>Joko</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pepe</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tito</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button">
+            <button onclick="continuar()">Click to continue</button>
+        </div>
+        <script>
+            function continuar(){
+                alert("...");
+            }
+        </script>
+    </body>
+</html>
